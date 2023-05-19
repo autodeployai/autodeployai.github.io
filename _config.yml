@@ -1,0 +1,40 @@
+# Site settings
+title: AutoDeployAI
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Deploy and manage machine learning, deep learning, algorithm models in production: PMML, ONNX, Python models, Scikit-learn, XGBoost, LightGBM, Spark, TensorFlow, Keras, Pytorch, MXNet.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.autodeployai.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: autodeployai
+github_username:  autodeployai
+
+# Build settings
+remote_theme: chrisrhymes/bulma-clean-theme
+livereload: true
+favicon: /favicon.ico
+
+# Pagination settings
+paginate: 5
+paginate_path: "/blog/page:num"
+
+# Build settings
+markdown: kramdown
+
+#Syntax Highlighter
+highlighter: rouge
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - github-pages
+
+sass:
+  style: compressed
+
+collections:
+  products: 
+    output: true
+    layout: product
+    show_sidebar: false
+

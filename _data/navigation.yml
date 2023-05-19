@@ -1,0 +1,14 @@
+- name: Products
+  link: /products
+  dropdown:
+    - name: AI-DaaS
+      link: /products/ai-daas
+    - name: AI-Serving
+      link: /products/ai-serving
+- name: Open Source
+  link: /opensource
+- name: About
+  link: /about
+- name: Blog
+  link: /blog
+
