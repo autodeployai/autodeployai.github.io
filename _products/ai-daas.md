@@ -1,17 +1,17 @@
 ---
 title: AI-DaaS
-subtitle: Deploy AI/ML models in production at scale on Kubernetes
-description: Deploy AI/ML models in production at scale on Kubernetes
+subtitle: Deploy and scale AI/ML models in production on Kubernetes (K8s)
+description: Deploy and scale AI/ML models in production on Kubernetes (K8s)
 layout: product
 image: /img/daas-design.jpg
 features:
     - label: Leverages Kubernetes to provide reliable and scalable deployment services
       icon: fa-circle
-    - label: Automated deployment system for AI/ML models including classic data mining and deep learning algorithms
+    - label: Automated deployment system for AI/ML models including traditional data mining and deep learning models
       icon: fa-circle
-    - label: Deploys pipelines with features engineering and prediction transformation instead of just models
+    - label: Deploys pipelines with features engineering and prediction transformations instead of just model
       icon: fa-circle
-    - label: Supports On-Premise or Cloud Kubernetes environments
+    - label: Supports On-Premise or on Cloud Kubernetes environments
       icon: fa-circle
 redirect_from: 
     - /products/ai-daas
@@ -33,10 +33,10 @@ redirect_from:
 <div class="columns">
   <div class="column is-8">
     <p>
-      Although there are already pipeline frameworks, like Scikit-learn, Spark-ML pipeline, the pipeline could not cover all stages, the data scientist always needs to write extra code out of it.
+      Although there are already pipeline frameworks, like Scikit-learn, and SparkML pipeline, the pipeline could not cover all stages, the data scientist always needs to write extra code out of it.
     </p>
     <p>
-      AI-DaaS is built on the Function-as-a-Service framework, you can generate the custom scoring script that has already included the model itself prediction at ease, then add your custom pre-processing & post-processing functions to finish the entire pipeline. At last, AI-DaaS can provide REST APIs for the entire pipeline automatically.
+      AI-DaaS is built on the Function-as-a-Service framework, you can generate the custom scoring script that has already included the model itself prediction with ease, then add your custom pre-processing & post-processing functions to finish the entire pipeline. At last, AI-DaaS can provide REST APIs for the entire pipeline automatically.
     </p>
   </div>
   <div class="column is-4 has-text-centered">
@@ -45,11 +45,11 @@ redirect_from:
     </figure>
   </div>
 </div>
-<h4>Open standard and open source</h4>
+<h4>Open-standard and open source</h4>
 <div class="columns">
   <div class="column is-8">
     <p>
-      AI-DaaS can deploy your AI & ML solutions into production at scale on Kubernetes, which provides highly reliable and scalable AI models deployment services. AI-DaaS can support major open standard and open-source models: PMML, Scikit-learn, XGBoost, LightGBM, Spark-ML; ONNX, Keras, TensorFlow, Pytorch, MXNet, and even custom models. One-click to deploy them using the DaaS client library, you can visit DaaS-Client for details, there are several example notebooks for your reference.
+      AI-DaaS can deploy your AI & ML solutions into production at scale on Kubernetes, which provides highly reliable and scalable AI model deployment services. AI-DaaS can support major open standard and open-source models: PMML, Scikit-learn, XGBoost, LightGBM, SparkML; ONNX, Keras, TensorFlow, PyTorch, MXNet, and even custom models. One-click to deploy them using the DaaS client library, you can visit DaaS-Client for details, there are several example notebooks for your reference.
     </p>
   </div>
   <div class="column is-4 has-text-centered">
@@ -61,3 +61,4 @@ redirect_from:
 <div class="buttons is-centered">
   <a href="/about" class="button is-info">Request Demo</a>
 </div>
+

@@ -1,15 +1,21 @@
 intro: |-
-  You can deploy PMML and ONNX in proudction using `AI-Serving`, and evaluate a PMML model in very popular languages, like Scala, Java, and Python, and run it in Spark to evaluate big data. All projects are open sourced in [GitHub](https://github.com/autodeployai).
+  We open source multiple prediction libraries about <a href="https://dmg.org/pmml/v4-4-1/GeneralStructure.html">PMML</a> and <a href="https://onnx.ai/">ONNX</a> standard model exchange formats on [GitHub](https://github.com/autodeployai),
+  which help users to use PMML or ONNX for model deployment in multiple languages (Scala, Java, and Python) and execution environments (Spark):
+  * AI-Serving: Inferencing system of PMML and ONNX.
+  * PyPMML: Python PMML scoring library.
+  * PMML4S: PMML scoring library for Scala.
+  * PMML4S-Spark: Python PMML scoring library for PySpark as SparkML Transformer.
+  * PyPMML-Spark: PMML scoring library for Spark as SparkML Transformer.
 items:
   - title: AI-Serving
-    subtitle: Deploy PMML and ONNX in production
+    subtitle: Inferencing system of PMML and ONNX
     description: |-
       Serving AI/ML models in the open standard formats PMML and ONNX with both HTTP (REST API) and gRPC endpoints.
     image: /img/ai-serving.png
     image_ratio: is-128x128
     link: https://github.com/autodeployai/ai-serving
     link_text: View AI-Serving
-    tags: PMML,ONNX,Inference Server 
+    tags: PMML,ONNX,PMML REST,ONNX REST,PMML gPRC,ONNX gPRC
     github: autodeployai/ai-serving
   - title: PyPMML
     subtitle: Python PMML scoring library
@@ -19,17 +25,17 @@ items:
     image_ratio: is-128x128
     link: https://github.com/autodeployai/pypmml
     link_text: View PyPMML
-    tags: PMML,pmml-scoring-library,Python pmml
+    tags: PMML,Python PMML
     github: autodeployai/pypmml
   - title: PMML4S
     subtitle: PMML scoring library for Scala
     description: |-
-      PMML4S is a PMML (Predictive Model Markup Language) scoring library for Scala. It provides both Scala and Java Evaluator API for PMML.
+      PMML4S is a PMML scoring library for Scala. It provides both Scala and Java Evaluator API for PMML.
     image: /img/pmml4s.png
     image_ratio: is-128x128
     link: https://github.com/autodeployai/pmml4s
     link_text: View PMML4S
-    tags: PMML,pmml-scoring-library,Scala pmml,Java pmml
+    tags: PMML,Scala PMML,Java PMML
     github: autodeployai/pmml4s
   - title: PyPMML-Spark
     subtitle: Python PMML scoring library for PySpark as SparkML Transformer
@@ -39,16 +45,17 @@ items:
     image_ratio: is-128x128
     link: https://github.com/autodeployai/pypmml-spark
     link_text: View PyPMML-Spark
-    tags: PMML,pmml-scoring-library,PySpark pmml
+    tags: PMML,PySpark PMML
     github: autodeployai/pypmml-spark
   - title: PMML4S-Spark
     subtitle: PMML scoring library for Spark as SparkML Transformer
     description: |-
-      PMML4S-Spark is a PMML (Predictive Model Markup Language) scoring library for Spark as SparkML Transformer.
+      PMML4S-Spark is a PMML scoring library for Spark as SparkML Transformer.
     image: /img/pmml4s-spark.png
     image_ratio: is-128x128
     link: https://github.com/autodeployai/pmml4s-spark
     link_text: View PMML4S-Spark
-    tags: PMML,pmml-scoring-library,Spark pmml
+    tags: PMML,Spark PMML
     github: autodeployai/pmml4s-spark
+
 

@@ -5,13 +5,13 @@ description: Serving AI/ML models in the open standard formats PMML and ONNX wit
 layout: product
 image: /img/ai-serving-design.jpg
 features:
-    - label: Supports both PMML and ONNX models
+    - label: Supports both standard <a href="https://dmg.org/pmml/v4-4-1/GeneralStructure.html">PMML</a> and <a href="https://onnx.ai/">ONNX</a> models
       icon: fa-circle
-    - label: Integrates PMML4S to score PMML models
+    - label: Integrates <a href="https://github.com/autodeployai/pmml4s">PMML4S</a> to score PMML models
       icon: fa-circle
-    - label: Depends on ONNX Runtime to support ONNX models with CPU and GPU accelerators
+    - label: Depends on <a href="https://onnxruntime.ai/">ONNX Runtime</a> to support ONNX models with CPU and GPU accelerators
       icon: fa-circle
-    - label: Provides both REST and gPRC APIs
+    - label: Provides both REST and gPRC endpoints
       icon: fa-circle
 ---
 
@@ -30,3 +30,4 @@ AI-Serving is a flexible, high-performance inferencing system for machine learni
 <div class="buttons is-centered">
   <a href="https://github.com/autodeployai/ai-serving" class="button is-info" target="_blank">Learn More</a>
 </div>
+
