@@ -16,6 +16,6 @@ With deep experience in data science, AutoDeployAI leverages open-standard and o
 Product demo or general inquiry? We’d love to hear from you. As for the product demo, you can either experience our AI-DaaS AI/ML models deployment system in the public cloud, or you can deploy the AI-DaaS trial version in your private cloud environment.
 
 ```
-autodeploy.ai(at)gmail.com
+info(at)autodeployai.com
 ```
 
